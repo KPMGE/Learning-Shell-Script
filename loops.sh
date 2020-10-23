@@ -34,4 +34,5 @@ done
 cont=0
 until [ cont -gt 5 ]; do
   echo "number: ${cont}"
+  cont=$[ $cont + 1 ]
 done
