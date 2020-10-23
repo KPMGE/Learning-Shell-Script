@@ -27,3 +27,11 @@ do
   read INPUT_STRING
   echo "You typed: $INPUT_STRING"
 done
+
+
+# there are also, the until structure
+# this statement works just like while, but with an inverted logic
+cont=0
+until [ cont -gt 5 ]; do
+  echo "number: ${cont}"
+done
